@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*outline: solid 1px red;*/
+    font-family: cursive;
+}
+
+.container {
+    margin: 0 50px 0 50px;
+}
+
+.body-container {
+    display: flex;
+    align-content: space-evenly;
+}
+
+.form {
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0 25px 0;
+
+}
+
+.col-2 {
+    flex: 2;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-evenly;
+
+
+}
+
+.col-1 {
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+.ninja-box {
+    display: flex;
+    font-size: .75em;
+    border: solid 1px black;
+    margin: 10px
+}
+
+.def-box {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    padding: 5px;
+    margin: 10px;
+    height: 75px;
+}
+
+.btn-login {
+    background-color: #2B78E4;
+    color: white;
+    padding: .45em;
+}
+
+.btn-like {
+    background-color: #FFD966;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.btn-add {
+    background-color: #93C47D;
+    padding: 3px;
+    margin-top: 5px;
+}
